@@ -1,3 +1,5 @@
+package builder;
+
 public class SlippersProductBuilder extends ProductBuilder {
 
     @Override

@@ -1,3 +1,4 @@
+package builder;
 
 public class Product {
     private String name = null;
@@ -57,7 +58,7 @@ public class Product {
 
     @Override
     public String toString() {
-        return "Product{" +
+        return "builder.Product{" +
                 "name='" + name + '\'' +
                 ", price=" + price +
                 ", category='" + category + '\'' +

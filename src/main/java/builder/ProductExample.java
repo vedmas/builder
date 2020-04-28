@@ -1,3 +1,9 @@
+package builder;
+
+import lombok.extern.slf4j.Slf4j;
+
+
+@Slf4j
 public class ProductExample {
 
     public static void main(String[] args) {
@@ -11,6 +17,6 @@ public class ProductExample {
         director1.setProductBuilder(slipperBuilder);
         System.out.println(director1.shoesProductConstructor());
 
+    }
 
     }
-}
